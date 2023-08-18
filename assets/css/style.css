@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#main {
+
+}
+
+#nav {
+    display: inline-block;
+    position: absolute;
+    left: 2vmin;
+}
+
+#header {
+    width: 100%;
+    padding: 2vw 3vw;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+}
+
+#nav > li {
+    display: inline-block;
+    padding: 0 6px;
+}
+
+#nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#header .app-btn {
+    float: right;
+}
+
+#header .app-icon {
+    padding-left: 12px;
+}
+
+#slider {
+    padding-top: 86px;
+    position: relative;
+}
+
+#slider .more-btn {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 40% ;
+}
+
+#slider .more-btn button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    min-width: 238px;
+    min-height: 26px;
+    padding: 10px 16px;
+    
+}
+
+#slider .more-btn button a {
+    color: #000;
+    text-decoration: none;
+}
+
+#content .text-content {
+    text-align: center;
+    padding: 0 50px 40px;
+}
+
+#content .text-heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+#content .text-description {
+    padding: 0 380px;
+    font-size: 16px;
+}
+
+#content .end-content p {
+    text-align: center;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#content .main-content {
+    padding-top: 80px;
+    float: left;
+}
+
+#content .content1 {
+    width: 100%;
+    padding: 0 320px;
+    text-align: center;
+}
+
+#content .text-main-content {
+    float: left;
+    padding-right: 160px;
+}
+
+#content .img-content {
+    float: right;
+}
+
+#footer {
+    text-align: center;
+}
+
+#footer > p{
+    font-size: 100px;
+}
